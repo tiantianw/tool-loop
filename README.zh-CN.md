@@ -1,5 +1,7 @@
 # tool-loop
 
+[![tests](https://github.com/tiantianw/tool-loop/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/tiantianw/tool-loop/actions/workflows/test.yml)
+
 一个能一口气读完的 tool-calling agent 循环。[English](README.md) · **中文**
 
 大多数 agent 框架把最关键的部分藏了起来。装一个,你拿到的是一个循环,但失败处理散落在十几个模块里,背后的判断依据完全不可见。这个仓库是反过来的:一个循环、三个只读工具、两个依赖,以及一份把"工具出错时到底发生什么"讲清楚的 README。

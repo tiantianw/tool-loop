@@ -102,7 +102,7 @@ def main() -> int:
             "repository as committed. The model is a scripted stand-in, so this output is\n"
             "deterministic: every failure below is reproducible, not illustrative.\n\n"
         )
-        path.write_text(header + render_transcript(agent, task), encoding="utf-8")
+        path.write_text(header + render_transcript(agent, task), encoding="utf-8", newline="\n")
         print(f"\nwrote {path}")
     return 0
 

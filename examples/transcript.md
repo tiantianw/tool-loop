@@ -29,18 +29,20 @@ deterministic: every failure below is reproducible, not illustrative.
 ```
 .:
   .git/
+  .github/
   examples/
   tests/
   .env.example  (174 bytes)
+  .gitattributes  (45 bytes)
   .gitignore  (94 bytes)
   agent.py  (9956 bytes)
-  demo.py  (4802 bytes)
+  demo.py  (4816 bytes)
   LICENSE  (1060 bytes)
   llm.py  (6866 bytes)
   main.py  (1824 bytes)
   pyproject.toml  (505 bytes)
-  README.md  (9802 bytes)
-  README.zh-CN.md  (9411 bytes)
+  README.md  (9970 bytes)
+  README.zh-CN.md  (9579 bytes)
   tools.py  (8922 bytes)
 ```
 

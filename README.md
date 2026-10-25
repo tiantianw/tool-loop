@@ -1,5 +1,7 @@
 # tool-loop
 
+[![tests](https://github.com/tiantianw/tool-loop/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/tiantianw/tool-loop/actions/workflows/test.yml)
+
 A tool-calling agent in one readable loop. **English** · [中文](README.zh-CN.md)
 
 Most agent frameworks hide the part that matters. You install one and get a
